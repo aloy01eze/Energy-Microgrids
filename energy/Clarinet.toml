@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/energymicrogrids.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.energyscaling]
+path = 'contracts/energyscaling.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
